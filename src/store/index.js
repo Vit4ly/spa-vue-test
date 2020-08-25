@@ -17,7 +17,8 @@ commit('createTask', task)
     }
   },
   getters: {
-    tasks: s => s.tasks
+    tasks: s => s.tasks,
+    taskById: s=> id => s.tasks.find(t => t.id === id)
   },
   modules: {
   }

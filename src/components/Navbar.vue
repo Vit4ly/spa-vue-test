@@ -12,7 +12,7 @@
           <a href="#">Create</a>
         </router-link>
         <router-link
-            tags="li"
+            tag="li"
             to="/list"
             active-class="active"
         >
